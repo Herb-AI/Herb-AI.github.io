@@ -5,7 +5,6 @@ layout: default
 <!-- about.html -->
       <div class="post">
 
-
         <article>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'center' -%}center{%- else -%}right{%- endif -%}">
@@ -68,6 +67,7 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
+
           <!-- Social -->
           {%- if page.social %}
             <div class="social">
@@ -81,6 +81,13 @@ layout: default
 
             </div>
           {%- endif %}
+
+
+          <div class="contributors">
+            <div class='contacts'> 
+              {{ page.profile.lab}}
+            </div>
+          </div>
         </article>
 
 </div>

@@ -331,6 +331,14 @@ blockquote {
   }
 }
 
+// Contributors
+.contributors {
+  text-align: left;
+
+  .contacts {
+    font-size: 0.9rem;
+  }
+}
 
 // Footer
 footer.fixed-bottom {
