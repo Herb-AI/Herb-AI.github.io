@@ -9,18 +9,35 @@ profile:
   image: herb_logo.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office 4.East.220</p>
+    <p>Van Mourik Broekmanweg 6</p>
+    <p>2628 XE Delft</p>
+  lab: <a href='https://sebdumancic.github.io/'>Dumancic Lab</a>, <a href='https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/algorithmics/'>Algorithmics Group</a>, TU Delft <br> Lovingly maintained by the <a href='https://github.com/orgs/Herb-AI/people'>core team</a> of volunteers.
 
+
+#This is a project of the [Dumancic lab](https://sebdumancic.github.io/) within the [Algorithmics group]() at TU Delft.Lovingly maintained by the [core team](https://github.com/orgs/Herb-AI/people) of volunteers.
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+&nbsp;
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+[![Build Status](https://github.com/Herb-AI/Herb.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/Herb-AI/Herb.jl/actions/workflows/CI.yml?query=branch%3Amaster)
+[![Dev-Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://Herb-AI.github.io/Herb.jl/dev)
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+When writing research software we almost always investigate highly specific properties or algorithms of our domain, leading to us building the tools from scratch over and over again. The very same holds for the field of program synthesis: Tools are hard to run, benchmarks are hard to get and prepare, and its hard to adapt our existing code to a novel idea.
+
+Herb.jl will take care of this for you and helps you defining, solving and extending your program synthesis problems.
+
+Herb.jl provides...
+- a unified and universal framework for program synthesis
+- Herb.jl allows you to describe all sorts of program synthesis problems using context-free grammars
+- a number of state-of-the-art benchmarks and solvers already implemented and usable out-of-the-box
+
+Check out [our documentation](https://herb-ai.github.io/Herb.jl/dev/) and [the repository](https://github.com/Herb-AI/Herb.jl).
+
+
+&nbsp;

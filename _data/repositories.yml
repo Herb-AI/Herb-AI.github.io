@@ -1,12 +1,16 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Herb-AI
 
-github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+herb_packages:
+  - Herb-AI/Herb.jl
+  - Herb-AI/HerbGrammar.jl
+  - Herb-AI/HerbData.jl
+  - Herb-AI/HerbSearch.jl
+  - Herb-AI/HerbConstraints.jl
+  - Herb-AI/HerbCore.jl
+  - Herb-AI/HerbInterpret.jl
+
+herb_projects:
+  - Herb-AI/HerbBenchmarks.jl
+  - Herb-AI/HerbExamples.jl
+
