@@ -6,13 +6,13 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: center
-  image: herb_logo.png
+  image: herb_blue_white_background.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>Office 4.East.220</p>
     <p>Van Mourik Broekmanweg 6</p>
     <p>2628 XE Delft</p>
-  lab: <a href='https://sebdumancic.github.io/'>Dumancic Lab</a>, <a href='https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/algorithmics/'>Algorithmics Group</a>, TU Delft <br> Lovingly maintained by the <a href='https://github.com/orgs/Herb-AI/people'>core team</a> of volunteers.
+  lab: <a href='https://sebdumancic.github.io/'>PONY lab</a>, <a href='https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/algorithmics/'>Algorithmics Group</a>, TU Delft <br> Lovingly maintained by the <a href='https://github.com/orgs/Herb-AI/people'>core team</a> of volunteers.
 
 
 #This is a project of the [Dumancic lab](https://sebdumancic.github.io/) within the [Algorithmics group]() at TU Delft.Lovingly maintained by the [core team](https://github.com/orgs/Herb-AI/people) of volunteers.

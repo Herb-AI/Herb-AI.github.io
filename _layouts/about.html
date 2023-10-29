@@ -6,6 +6,9 @@ layout: default
       <div class="post">
 
         <article>
+         <div class="intro">
+           Welcome to <!-- Herb.jl -->
+          </div> 
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'center' -%}center{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
@@ -31,9 +34,7 @@ layout: default
           </div>
           {%- endif %}
 
-          <div class="intro">
-            Welcome to Herb.jl
-          </div>
+          
           <div class="tagline">A program synthesis library written in Julia</div>
         </article>
 

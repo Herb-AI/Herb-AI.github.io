@@ -106,7 +106,6 @@ blockquote {
 }
 
 // Citation
-
 .citation,
 .citation-number {
   color: var(--global-theme-color);
@@ -138,13 +137,15 @@ blockquote {
 }
 
 .profile.float-center {
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 70px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 288px) {
   .profile {
-    width: 30%;
+    width: 85%;
 
     .address {
       p {
@@ -152,6 +153,10 @@ blockquote {
       }
     }
   }
+}
+
+.img-fluid.z-depth-1 {
+  box-shadow: none !important;
 }
 
 .post-description {
