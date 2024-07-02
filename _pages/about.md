@@ -34,7 +34,7 @@ Herb.jl will take care of this for you and helps you defining, solving and exten
 
 Herb.jl provides...
 - a unified and universal framework for program synthesis
-- Herb.jl allows you to describe all sorts of program synthesis problems using context-free grammars
+- a fast notion to describe all sorts of program synthesis problems with different specifications and grammars
 - a number of state-of-the-art benchmarks and solvers already implemented and usable out-of-the-box
 
 Check out [our documentation](https://herb-ai.github.io/Herb.jl/dev/) and [the repository](https://github.com/Herb-AI/Herb.jl).
