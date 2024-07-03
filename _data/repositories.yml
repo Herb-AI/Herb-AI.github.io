@@ -3,14 +3,14 @@ github_users:
 
 herb_packages:
   - Herb-AI/Herb.jl
-  - Herb-AI/HerbGrammar.jl
-  - Herb-AI/HerbData.jl
-  - Herb-AI/HerbSearch.jl
-  - Herb-AI/HerbConstraints.jl
   - Herb-AI/HerbCore.jl
+  - Herb-AI/HerbGrammar.jl
+  - Herb-AI/HerbSpecification.jl
+  - Herb-AI/HerbSearch.jl
   - Herb-AI/HerbInterpret.jl
+  - Herb-AI/HerbConstraints.jl
 
 herb_projects:
+  - Herb-AI/Garden
   - Herb-AI/HerbBenchmarks.jl
-  - Herb-AI/HerbExamples.jl
 
