@@ -122,7 +122,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Herb-AI # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: #blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: A collection of posts, tutorials and talks about Herb.jl
 permalink: /blog/:year/:title/
 
