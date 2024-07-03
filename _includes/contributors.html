@@ -1,0 +1,20 @@
+<!-- _includes/contributors.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+    <a href="{{ person.url | relative_url }}">
+      <div class="card hoverable">
+        {%- assign image_path = person.img | prepend: '/assets/img/people/' -%}
+
+        {%- if person.img %}
+        {%- include figure.html
+          path=image_path
+          max-height=250px
+          alt="person thumbnail" -%}
+        {%- endif %}
+        <div class="card-body">
+          <h2 class="card-title">{{ person.name }}</h2>
+          <p class="card-text">{{ person.bio }}</p>
+        </div>
+      </div>
+    </a>
+</div>

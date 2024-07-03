@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: A list of Herb.jl-related repositories.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 ## Herb.jl repositories

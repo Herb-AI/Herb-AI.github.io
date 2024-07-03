@@ -1,0 +1,29 @@
+core_team:
+  - name: Sebastijan Dumancic
+    img: sebastijan.jpg
+    url: https://sebdumancic.github.io/
+    bio: Assistant professor
+  - name: Tilman Hinnerichs
+    img: tilman.jpg
+    url: https://tilman.hinnerichs.com/
+    bio: PhD student
+  - name: Reuben Gardos Reid
+    img: reuben.jpg
+    url: https://reuben.gr.com/
+    bio: PhD student
+  - name: Issa Hanou
+    img: issa.jpg
+    url: https://issahanou.github.io/
+    bio: PhD student
+  - name: Pamela Wochner
+    img: pam.jpeg
+    url: https://reit.tudelft.nl/#/members/pamela
+    bio: Research Software Engineer
+  - name: Lorenzo Theunissen
+    img: stock.jpg
+    url: 
+    bio: PhD student
+  - name: Stef Rasing
+    img: stock.jpg
+    url: 
+    bio: Student Research Engineer
