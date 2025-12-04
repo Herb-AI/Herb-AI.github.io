@@ -41,7 +41,7 @@ Check out [our documentation](https://herb-ai.github.io/Herb.jl/dev/) and [the r
 
 ### Try it out!
 
-For anyone new to program synthesis, we offer [tutorials](https://herb-ai.github.io/Herb.jl/dev/get_started/) to get you familiar with program synthesis within Herb.jl.
+For anyone new to program synthesis, we offer [tutorials](https://herb-ai.github.io/Herb.jl/dev//tutorials/basic_getting_started/) to get you familiar with program synthesis within Herb.jl.
 
 To those of you already familiar with program synthesis, we invite you to check out our [Garden](https://github.com/Herb-AI/Garden) where we have implemented some well-known synthesizers within Herb.jl, so you can easily benchmark against them. 
 
