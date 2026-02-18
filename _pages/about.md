@@ -37,7 +37,7 @@ Herb.jl provides...
 - a fast notion to describe all sorts of program synthesis problems with different specifications and grammars
 - many state-of-the-art benchmarks and solvers already implemented and usable out-of-the-box
 
-Check out [our documentation](https://herb-ai.github.io/Herb.jl/dev/) and [the repository](https://github.com/Herb-AI/Herb.jl).
+Check out [our extended paper](https://arxiv.org/pdf/2510.09726), [our documentation](https://herb-ai.github.io/Herb.jl/dev/) and [the repository](https://github.com/Herb-AI/Herb.jl).
 
 ### Try it out!
 
