@@ -1063,7 +1063,7 @@ nav[data-toggle="toc"] {
 	// min-height: 10vh;
 	justify-content: center;
 	padding: 0 10px;
-  color: #404f6f;
+  color: var(--global-text-color-light);
 }
 
 .tagline {
@@ -1076,6 +1076,6 @@ nav[data-toggle="toc"] {
 	justify-content: center;
 	padding: 0 10px;
 	text-align: center;
-  color: #404f6f;
+  color: var(--global-text-color-light);
   padding-bottom: 150px;
 }
