@@ -12,6 +12,10 @@
       />
     {% endfor -%}
     {% endif %}
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="{{ "herb_light.svg" | relative_url }}"
+      />
 
     <!-- Fallback to the original file -->
     <img
