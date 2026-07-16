@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: center
-  image: herb_blue_white_background.png
+  image: herb_blue.svg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Office 4.East.220</p>
