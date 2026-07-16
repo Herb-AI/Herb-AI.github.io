@@ -12,6 +12,7 @@ let setTheme = (theme) => {
   transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
+  setThemeImages(theme);
 
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
@@ -79,6 +80,18 @@ let setGiscusTheme = (theme) => {
     },
   });
 };
+
+let setThemeImages = (theme) => {
+  let imgs = document.getElementsByClassName("theme-img");
+  for (let i = 0; i < imgs.length; i++) {
+    let img = imgs[i];
+    let newSrc = theme == "dark" ? img.dataset.srcDark : img.dataset.srcLight;
+    if (newSrc && img.getAttribute("src") !== newSrc) {
+      img.setAttribute("src", newSrc);
+    }
+  }
+};
+
 
 let transTheme = () => {
   document.documentElement.classList.add("transition");
