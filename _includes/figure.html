@@ -3,6 +3,10 @@
 <figure>
 
   <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="{{ "/assets/img/herb_light.svg" | relative_url }}"
+      />
     {% if site.imagemagick.enabled %}
     {% for i in site.imagemagick.widths -%}
       <source
@@ -12,10 +16,6 @@
       />
     {% endfor -%}
     {% endif %}
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="{{ "/assets/img/herb_light.svg" | relative_url }}"
-      />
 
     <!-- Fallback to the original file -->
     <img
