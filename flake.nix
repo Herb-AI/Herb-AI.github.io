@@ -1,5 +1,6 @@
 {
   inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     utils.url = "github:numtide/flake-utils";
   };
   outputs = {
@@ -10,20 +11,25 @@
     utils.lib.eachDefaultSystem (
       system: let
         pkgs = nixpkgs.legacyPackages.${system};
+        gems = pkgs.bundlerEnv {
+          name = "herb-ai-website";
+          inherit (pkgs) ruby;
+          gemdir = ./.;
+        };
       in {
+        default = gems;
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
-            ruby
-            imagemagick
-            (python3.withPackages (python-pkgs:
-              with python-pkgs; [
-                # select Python packages here
-                jupyter
-              ]))
-            jekyll
-            bundler
+            # gems
+            # gems.wrappedRuby
+            bundix
+            # imagemagick
+            # (python3.withPackages (python-pkgs:
+            #   with python-pkgs; [
+            #     # jupyter
+            #   ]))
           ];
-          JEKYLL_ENV = "production";
+          # JEKYLL_ENV = "production";
         };
       }
     );
