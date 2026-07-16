@@ -15,7 +15,7 @@ profile:
   lab: <a href='https://sebdumancic.github.io/'>PONY lab</a>, <a href='https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/algorithmics/'>Algorithmics Group</a>, TU Delft <br> Lovingly maintained by the <a href='https://github.com/orgs/Herb-AI/people?query=role%3Aowner'>core team</a> of volunteers.
 
 
-#This is a project of the [Dumancic lab](https://sebdumancic.github.io/) within the [Algorithmics group]() at TU Delft.Lovingly maintained by the [core team](https://github.com/orgs/Herb-AI/people) of volunteers.
+#This is a project of the [PONY lab](https://sebdumancic.github.io/) within the [Algorithmics group]() at TU Delft.Lovingly maintained by the [core team](https://github.com/orgs/Herb-AI/people) of volunteers.
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
