@@ -112,3 +112,7 @@ let initTheme = (theme) => {
 };
 
 initTheme(localStorage.getItem("theme"));
+
+document.addEventListener("DOMContentLoaded", () => {
+  setThemeImages(document.documentElement.getAttribute("data-theme"));
+});
