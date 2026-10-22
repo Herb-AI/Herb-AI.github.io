@@ -91,3 +91,8 @@ html[data-theme='dark'] {
     display: block;
   }
 }
+
+.profile-img-dark { display: none; }
+
+html[data-theme="dark"] .profile-img-light { display: none; }
+html[data-theme="dark"] .profile-img-dark  { display: block; }
