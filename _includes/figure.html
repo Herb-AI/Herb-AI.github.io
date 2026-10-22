@@ -15,11 +15,8 @@
 
     <!-- Fallback to the original file -->
     <img
-      class="theme-img{% if include.class %} {{ include.class }}{% endif %}"
-      src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
-      data-src-light="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
-      data-src-dark="{{ include.dark_path | default: "/assets/img/herb_light.svg" | relative_url }}"
       {% if include.class %}class="{{ include.class }}"{% endif %}
+      src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
       {% if include.width %}width="{{ include.width }}"{% else %}width="auto"{% endif %}
       {% if include.height %}height="{{ include.height }}"{% else %}height="auto"{% endif %}
       {% if include.min-width %}min-width="{{ include.min-width }}"{% endif %}
